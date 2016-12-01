@@ -7,25 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0271B6481DEF2ECA0030E67D /* LapTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 0271B6471DEF2ECA0030E67D /* LapTime.m */; };
 		02BD93441DDA040100E49D90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BD93431DDA040100E49D90 /* main.m */; };
 		02BD93471DDA040100E49D90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BD93461DDA040100E49D90 /* AppDelegate.m */; };
-		02BD934A1DDA040100E49D90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BD93491DDA040100E49D90 /* ViewController.m */; };
+		02BD934A1DDA040100E49D90 /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BD93491DDA040100E49D90 /* TimerViewController.m */; };
 		02BD934D1DDA040100E49D90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02BD934B1DDA040100E49D90 /* Main.storyboard */; };
 		02BD934F1DDA040100E49D90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02BD934E1DDA040100E49D90 /* Assets.xcassets */; };
 		02BD93521DDA040100E49D90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02BD93501DDA040100E49D90 /* LaunchScreen.storyboard */; };
+		02BD935B1DDA1F3700E49D90 /* SetTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BD935A1DDA1F3700E49D90 /* SetTimerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0271B6461DEF2ECA0030E67D /* LapTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LapTime.h; sourceTree = "<group>"; };
+		0271B6471DEF2ECA0030E67D /* LapTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LapTime.m; sourceTree = "<group>"; };
 		02BD933F1DDA040100E49D90 /* Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02BD93431DDA040100E49D90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		02BD93451DDA040100E49D90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		02BD93461DDA040100E49D90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		02BD93481DDA040100E49D90 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		02BD93491DDA040100E49D90 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		02BD93481DDA040100E49D90 /* TimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerViewController.h; sourceTree = "<group>"; };
+		02BD93491DDA040100E49D90 /* TimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerViewController.m; sourceTree = "<group>"; };
 		02BD934C1DDA040100E49D90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		02BD934E1DDA040100E49D90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02BD93511DDA040100E49D90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02BD93531DDA040100E49D90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02BD93591DDA1F3700E49D90 /* SetTimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetTimerViewController.h; sourceTree = "<group>"; };
+		02BD935A1DDA1F3700E49D90 /* SetTimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetTimerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +66,13 @@
 			children = (
 				02BD93451DDA040100E49D90 /* AppDelegate.h */,
 				02BD93461DDA040100E49D90 /* AppDelegate.m */,
-				02BD93481DDA040100E49D90 /* ViewController.h */,
-				02BD93491DDA040100E49D90 /* ViewController.m */,
+				02BD93481DDA040100E49D90 /* TimerViewController.h */,
+				02BD93491DDA040100E49D90 /* TimerViewController.m */,
 				02BD934B1DDA040100E49D90 /* Main.storyboard */,
+				0271B6461DEF2ECA0030E67D /* LapTime.h */,
+				0271B6471DEF2ECA0030E67D /* LapTime.m */,
+				02BD93591DDA1F3700E49D90 /* SetTimerViewController.h */,
+				02BD935A1DDA1F3700E49D90 /* SetTimerViewController.m */,
 				02BD934E1DDA040100E49D90 /* Assets.xcassets */,
 				02BD93501DDA040100E49D90 /* LaunchScreen.storyboard */,
 				02BD93531DDA040100E49D90 /* Info.plist */,
@@ -150,9 +160,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02BD934A1DDA040100E49D90 /* ViewController.m in Sources */,
+				02BD934A1DDA040100E49D90 /* TimerViewController.m in Sources */,
 				02BD93471DDA040100E49D90 /* AppDelegate.m in Sources */,
 				02BD93441DDA040100E49D90 /* main.m in Sources */,
+				0271B6481DEF2ECA0030E67D /* LapTime.m in Sources */,
+				02BD935B1DDA1F3700E49D90 /* SetTimerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +319,7 @@
 				02BD93581DDA040100E49D90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

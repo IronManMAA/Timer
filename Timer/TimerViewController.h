@@ -8,7 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@protocol TimeSetDelegate
+- (void) timeValueWasChosen:(NSInteger)timeValue;
+
+@end
+
+@interface TimerViewController : UIViewController
 
 
 @end
